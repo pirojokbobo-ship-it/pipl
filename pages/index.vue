@@ -6,6 +6,13 @@ useHead({
       name: 'description',
       content: 'Описание страницы'
     }
+  ],
+  link: [
+    {
+      rel: 'preload',
+      as: 'image',
+      href: 'images/general-bg.jpg',
+    }
   ]
 })
 </script>
